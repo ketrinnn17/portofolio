@@ -114,7 +114,7 @@ footer { padding: 100px 0; background: var(--soft-pink); text-align: center; }
     color: var(--dark-rose);
     text-decoration: none;
     margin: 30px 0;
-    font-weight: 700;
+    font-weight: 400;
 
     word-break: break-all;
     overflow-wrap: anywhere;
