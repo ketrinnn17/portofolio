@@ -84,7 +84,7 @@ nav {
 
 .project-grid {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
+    gap: 40px;
 }
 
 .project-card {
@@ -109,9 +109,17 @@ footer { padding: 100px 0; background: var(--soft-pink); text-align: center; }
 .footer-content h2 { font-family: 'Playfair Display', serif; font-size: 3rem; margin-bottom: 10px; }
 
 .big-mail {
-    display: block; font-size: 1.8rem; color: var(--dark-rose);
-    text-decoration: none; margin: 30px 0; font-weight: 700;
+    display: block;
+    font-size: 1.8rem;
+    color: var(--dark-rose);
+    text-decoration: none;
+    margin: 30px 0;
+    font-weight: 700;
+
+    word-break: break-all;
+    overflow-wrap: anywhere;
 }
+
 
 .socials a {
     text-decoration: none; color: var(--text); margin: 0 15px;
@@ -219,7 +227,4 @@ footer { padding: 100px 0; background: var(--soft-pink); text-align: center; }
     bottom: -5px;
 }
 
-.big-mail {
-    word-break: break-word;
-}
 
