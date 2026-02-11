@@ -84,7 +84,7 @@ nav {
 
 .project-grid {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 40px;
+    gap: 25px;
 }
 
 .project-card {
@@ -218,3 +218,8 @@ footer { padding: 100px 0; background: var(--soft-pink); text-align: center; }
     left: 0;
     bottom: -5px;
 }
+
+.big-mail {
+    word-break: break-word;
+}
+
